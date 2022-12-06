@@ -9,22 +9,26 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 0.2;
   font-weight: 400;
-  background-image: url(/Users/sabainahakinbusuyi/bootcamp/challenge-2/MyProfile/Myprofile/images/background.jpg);
+  padding: 2px 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: white;
 }
 .navpoint{
-background-color:whitesmoke;
-color: black;
+background-image: url(/Users/sabainahakinbusuyi/bootcamp/challenge-2/MyProfile/Myprofile/images/background.jpg);
+color: brown;
+font-style: italic;
 display: flex;
 justify-content: space-around;
 align-items: flex-start;
-border: 10px solid yellowgreen;
+border: 2px solid ;
 
 }
 .nav-menu{
   list-style-type: none;
 }
 
-li{
+.nav-menu li{
   display: inline-block;
   padding: 0 10px;
  /* padding shows top and bottom 0, left and right 20px  */ 
@@ -35,9 +39,145 @@ li{
 .hero-banner{
   display: flex;
   justify-content: flex-end;
-  background-color: cyan;
   border: 2px solid rgb(213, 183, 32);
-  color: rgb(66, 156, 246);
+  background-image: url(/Users/sabainahakinbusuyi/bootcamp/challenge-2/MyProfile/Myprofile/images/roadmap.jpg);
+  color: rgb(234, 106, 232);
   padding: 5px 5px;
   margin: 5px 0;
+  height: 100px;
 }
+
+.page-wrapper {
+
+    display: flex;
+    height: 1200px;
+    width: 800px;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+#about{
+  padding: 20px 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  border-right: 10px;
+  height: 200px;
+}
+h3{
+
+  font-size: 35px;
+  position: absolute;
+  left: 50px;
+
+}
+#about p{
+  font-size: 12px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: normal;
+  text-align: center;
+}
+#work{
+  height: 250px;
+  padding: 20px 40px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  
+}
+h4{
+  font-size: 35px;
+  position: absolute;
+  left: 50px;
+}
+ 
+.project1 {
+background-image: url(/Users/sabainahakinbusuyi/bootcamp/challenge-2/MyProfile/Myprofile/images/02-portfolio-4.jpg);
+background-position: center;
+padding: 20px 40px;
+margin: 10px 10px;
+height: 200px;
+width: 100%;
+ position: right;
+}
+
+.word{
+background-image: url(/Users/sabainahakinbusuyi/bootcamp/challenge-2/MyProfile/Myprofile/images/02-portfolio-1.jpg);
+background-position: center;
+padding: 20px 40px;
+margin: 10px 10px;
+height: auto;
+width: 100%;
+ position: right;
+}
+.project2{
+  background-image: url(/Users/sabainahakinbusuyi/bootcamp/challenge-2/MyProfile/Myprofile/images/02-portfolio-3.jpg);
+  background-position: center;
+  padding: 20px 40px;
+  margin: 10px 10px;
+  height: auto;
+  width: 100%;
+   position: right;
+}
+.project3 {
+background-image: url(/Users/sabainahakinbusuyi/bootcamp/challenge-2/MyProfile/Myprofile/images/02-portfolio-2.jpg);
+background-position: center;
+padding: 10px 10px;
+margin: 10px 10px;
+height: auto;
+width: 100%;
+ position: right;
+}
+
+.project4{
+  background-image: url(/Users/sabainahakinbusuyi/bootcamp/challenge-2/MyProfile/Myprofile/images/02-run-buddy.jpg);
+  background-position: right;
+  opacity: 0.8;
+  padding: 20px 40px;
+  margin: 10px 10px;
+  height: auto;
+  width: 100%;
+   position: right;
+}
+.temp h5 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 12px;
+}
+
+.temp p {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  text-align:left
+  
+}
+
+h6{
+
+  font-size: 35px;
+  position: absolute;
+  left: 50px;
+  color: black;
+}
+
+#contact{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  padding: 20px 40px;
+  margin-top: 40px;
+  bottom: auto;
+  height: 1300px;
+  
+}
+
+#contact li{
+  display: inline-block;
+  padding: 10px 10px;
+  text-align: end;
+}
+
+#contact li a:hover{
+  color: blanchedalmond;
+}
+
